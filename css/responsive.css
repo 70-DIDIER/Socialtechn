@@ -257,3 +257,10 @@ File Name: responsive.css
         width: 48px;
     }
 }
+
+@media (max-width: 576px) {
+    .logo img {
+        max-width: 60%; /* Ajustez ce pourcentage selon vos besoins */
+        height: auto;
+    }
+}
